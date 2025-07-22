@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles, Zap, Brain } from "lucide-react";
 import heroImage from "@/assets/hero-ai-kids.jpg";
-
 const HeroSection = () => {
-  return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24">
+  return <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-hero opacity-10" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/20 via-transparent to-transparent" />
@@ -15,12 +13,16 @@ const HeroSection = () => {
           <Brain className="w-8 h-8 text-white" />
         </div>
       </div>
-      <div className="absolute top-32 right-20 animate-float" style={{ animationDelay: '1s' }}>
+      <div className="absolute top-32 right-20 animate-float" style={{
+      animationDelay: '1s'
+    }}>
         <div className="w-12 h-12 bg-ai-orange rounded-full flex items-center justify-center shadow-lg">
           <Sparkles className="w-6 h-6 text-white" />
         </div>
       </div>
-      <div className="absolute bottom-32 left-20 animate-float" style={{ animationDelay: '2s' }}>
+      <div className="absolute bottom-32 left-20 animate-float" style={{
+      animationDelay: '2s'
+    }}>
         <div className="w-14 h-14 bg-ai-pink rounded-full flex items-center justify-center shadow-lg">
           <Zap className="w-7 h-7 text-white" />
         </div>
@@ -32,7 +34,7 @@ const HeroSection = () => {
           {/* Left Column - Text Content */}
           <div className="text-center lg:text-left space-y-8">
             <div className="space-y-4">
-              <div className="inline-flex items-center px-4 py-2 bg-primary/10 border border-primary/20 rounded-full text-sm font-medium text-primary animate-shimmer bg-shimmer-gradient bg-[length:200%_100%]">
+              <div className="inline-flex items-center px-4 py-2 bg-primary/10 border border-primary/20 rounded-full text-sm font-medium text-primary animate-shimmer bg-shimmer-gradient bg-[length:200%_100%] my-0">
                 <Sparkles className="w-4 h-4 mr-2" />
                 First-of-its-Kind AI Education Program
               </div>
@@ -83,11 +85,7 @@ const HeroSection = () => {
           {/* Right Column - Hero Image */}
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300">
-              <img
-                src={heroImage}
-                alt="Kids learning AI"
-                className="w-full h-auto object-cover"
-              />
+              <img src={heroImage} alt="Kids learning AI" className="w-full h-auto object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
             </div>
             
@@ -106,8 +104,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
