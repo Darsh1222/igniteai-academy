@@ -57,52 +57,6 @@ const AboutSection = () => {
           ))}
         </div>
 
-        {/* Story Section */}
-        <div className="bg-card rounded-2xl p-8 md:p-12 shadow-ai">
-          <div className="grid lg:grid-cols-2 gap-8 items-center">
-            <div>
-              <h3 className="text-2xl md:text-3xl font-bold mb-6">
-                Why We Started This Journey
-              </h3>
-              <div className="space-y-4 text-muted-foreground">
-                <p>
-                  In a world where AI is reshaping every industry, we recognized a critical gap: 
-                  while adults scramble to understand artificial intelligence, children—who will 
-                  live their entire lives alongside AI—had no structured way to learn about it.
-                </p>
-                <p>
-                  Founded by a team of educators, technologists, and child development experts, 
-                  Ignite AI Academy was born from the belief that AI literacy should start early. 
-                  Just as we teach reading and math as fundamental skills, we believe AI understanding 
-                  will be essential for tomorrow's citizens.
-                </p>
-                <p>
-                  Our curriculum is carefully crafted to be developmentally appropriate, ensuring 
-                  that complex AI concepts are broken down into engaging, understandable experiences 
-                  that spark curiosity rather than confusion.
-                </p>
-              </div>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-primary/10 p-6 rounded-xl text-center">
-                <div className="text-3xl font-bold text-primary">2024</div>
-                <div className="text-sm text-muted-foreground">Academy Founded</div>
-              </div>
-              <div className="bg-ai-orange/10 p-6 rounded-xl text-center">
-                <div className="text-3xl font-bold text-ai-orange">500+</div>
-                <div className="text-sm text-muted-foreground">Students Enrolled</div>
-              </div>
-              <div className="bg-ai-pink/10 p-6 rounded-xl text-center">
-                <div className="text-3xl font-bold text-ai-pink">15+</div>
-                <div className="text-sm text-muted-foreground">Expert Instructors</div>
-              </div>
-              <div className="bg-ai-purple/10 p-6 rounded-xl text-center">
-                <div className="text-3xl font-bold text-ai-purple">12</div>
-                <div className="text-sm text-muted-foreground">Course Modules</div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
