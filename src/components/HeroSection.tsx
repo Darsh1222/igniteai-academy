@@ -47,7 +47,7 @@ const HeroSection = () => {
                 <span className="text-foreground">Start Today</span>
               </h1>
               
-              <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
+              <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto lg:mx-0">
                 Unlock your child's potential with cutting-edge AI education designed for ages 6-11. 
                 We're creating <strong className="text-primary">future-ready kids</strong> through fun, 
                 interactive learning that makes artificial intelligence accessible and exciting.
