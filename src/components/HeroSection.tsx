@@ -8,6 +8,13 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/20 via-transparent to-transparent" />
       
       {/* Floating Elements */}
+      <div className="absolute top-20 left-16 animate-float" style={{
+        animationDelay: '0.5s'
+      }}>
+        <div className="w-10 h-10 bg-ai-blue rounded-full flex items-center justify-center shadow-lg">
+          <Brain className="w-5 h-5 text-white" />
+        </div>
+      </div>
       
       <div className="absolute top-32 right-20 animate-float" style={{
       animationDelay: '1s'
