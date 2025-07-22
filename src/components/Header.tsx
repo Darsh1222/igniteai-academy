@@ -48,7 +48,7 @@ const Header = () => {
           </nav>
 
           {/* CTA Button */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden md:flex items-center space-x-8 ml-8">
             <Button variant="hero" size="sm">
               Join the AI Generation
             </Button>
