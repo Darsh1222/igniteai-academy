@@ -56,32 +56,6 @@ const HeroSection = () => {
               </p>
             </div>
 
-            {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button variant="cta" size="lg" className="group">
-                Join the AI Generation
-                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-              </Button>
-              <Button variant="outline" size="lg">
-                Watch Demo
-              </Button>
-            </div>
-
-            {/* Stats */}
-            <div className="flex flex-col sm:flex-row gap-8 justify-center lg:justify-start">
-              <div className="text-center lg:text-left">
-                <div className="text-2xl font-bold text-primary">500+</div>
-                <div className="text-sm text-muted-foreground">Young Innovators</div>
-              </div>
-              <div className="text-center lg:text-left">
-                <div className="text-2xl font-bold text-ai-orange">12+</div>
-                <div className="text-sm text-muted-foreground">AI Courses</div>
-              </div>
-              <div className="text-center lg:text-left">
-                <div className="text-2xl font-bold text-ai-pink">98%</div>
-                <div className="text-sm text-muted-foreground">Parent Satisfaction</div>
-              </div>
-            </div>
           </div>
 
           {/* Right Column - Hero Image */}

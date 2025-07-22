@@ -46,75 +46,19 @@ const Footer = () => {
           {/* Quick Links */}
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
-            <ul className="space-y-2">
-              {quickLinks.map((link, index) => (
-                <li key={index}>
-                  <a 
-                    href={link.href}
-                    className="text-sm opacity-80 hover:opacity-100 hover:text-primary transition-all"
-                  >
-                    {link.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
+            <p className="text-sm opacity-80">Coming Soon</p>
           </div>
 
           {/* Programs */}
           <div>
             <h4 className="font-semibold mb-4">Our Programs</h4>
-            <ul className="space-y-2">
-              {programs.map((program, index) => (
-                <li key={index}>
-                  <a 
-                    href={program.href}
-                    className="text-sm opacity-80 hover:opacity-100 hover:text-primary transition-all"
-                  >
-                    {program.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
+            <p className="text-sm opacity-80">Coming Soon</p>
           </div>
 
           {/* Contact Info */}
           <div>
             <h4 className="font-semibold mb-4">Contact Us</h4>
-            <div className="space-y-3">
-              <div className="flex items-start gap-3">
-                <MapPin className="w-4 h-4 mt-1 opacity-80" />
-                <div className="text-sm opacity-80">
-                  <p>123 Innovation Drive</p>
-                  <p>Tech Valley, CA 94000</p>
-                </div>
-              </div>
-              <div className="flex items-center gap-3">
-                <Phone className="w-4 h-4 opacity-80" />
-                <span className="text-sm opacity-80">(555) 123-AI-KIDS</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <Mail className="w-4 h-4 opacity-80" />
-                <span className="text-sm opacity-80">hello@igniteaiacacemy.edu</span>
-              </div>
-            </div>
-
-            {/* Newsletter */}
-            <div className="mt-6">
-              <h5 className="font-medium mb-2">AI Education Newsletter</h5>
-              <p className="text-xs opacity-80 mb-3">
-                Get tips, updates, and AI learning resources for parents
-              </p>
-              <div className="flex">
-                <input 
-                  type="email" 
-                  placeholder="Your email"
-                  className="flex-1 px-3 py-2 text-foreground text-sm rounded-l-md border-0"
-                />
-                <button className="bg-primary px-3 py-2 rounded-r-md hover:bg-primary/90 transition-colors">
-                  <Mail className="w-4 h-4" />
-                </button>
-              </div>
-            </div>
+            <p className="text-sm opacity-80">Coming Soon</p>
           </div>
         </div>
 
