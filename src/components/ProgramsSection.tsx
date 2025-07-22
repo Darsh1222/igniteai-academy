@@ -171,30 +171,6 @@ const ProgramsSection = () => {
           ))}
         </div>
 
-        {/* Additional Offerings */}
-        <div className="bg-muted/30 rounded-2xl p-8">
-          <h3 className="text-2xl font-bold text-center mb-8">Additional Learning Opportunities</h3>
-          <div className="grid md:grid-cols-3 gap-6">
-            {additionalOfferings.map((offering, index) => (
-              <Card key={index} className="bg-card border-0 shadow-md hover:shadow-lg transition-all duration-300">
-                <CardContent className="p-6 text-center">
-                  <h4 className="font-semibold text-lg mb-2">{offering.title}</h4>
-                  <p className="text-muted-foreground text-sm mb-4">{offering.description}</p>
-                  <div className="flex justify-center gap-4 text-xs text-muted-foreground">
-                    <span>{offering.duration}</span>
-                    <span>•</span>
-                    <span>{offering.ages}</span>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-          <div className="text-center mt-8">
-            <Button variant="outline">
-              Learn More About All Programs
-            </Button>
-          </div>
-        </div>
       </div>
     </section>
   );
