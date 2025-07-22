@@ -46,7 +46,9 @@ const HeroSection = () => {
                 <br />
                 <span className="text-foreground">Start Today</span>
                 <br />
-                
+                <span className="text-2xl md:text-3xl lg:text-4xl font-semibold text-muted-foreground mt-4">
+                  at Ignite AI Academy
+                </span>
               </h1>
               
               <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto lg:mx-0">
