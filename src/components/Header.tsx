@@ -4,7 +4,7 @@ const Header = () => {
         <div className="flex h-20 items-center justify-center overflow-hidden">
           <div className="whitespace-nowrap animate-marquee">
             <span className="text-2xl font-bold bg-gradient-ai bg-clip-text text-transparent mx-8">
-              More Information Coming Soon • More Information Coming Soon • More Information Coming Soon • More Information Coming Soon • More Information Coming Soon •
+              More Information Coming Soon Come Back Soon • More Information Coming Soon Come Back Soon • More Information Coming Soon Come Back Soon • More Information Coming Soon Come Back Soon • More Information Coming Soon Come Back Soon •
             </span>
           </div>
         </div>
