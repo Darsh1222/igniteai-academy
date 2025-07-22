@@ -26,7 +26,7 @@ const Header = () => {
             </div>
             <div>
               <h1 className="text-xl font-bold bg-gradient-ai bg-clip-text text-transparent">
-                AI Academy
+                Ignite AI Academy
               </h1>
               <p className="text-xs text-muted-foreground">for Young Minds</p>
             </div>

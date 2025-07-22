@@ -26,7 +26,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2">
               <Brain className="h-8 w-8 text-primary" />
               <div>
-                <h3 className="text-xl font-bold">AI Academy</h3>
+                <h3 className="text-xl font-bold">Ignite AI Academy</h3>
                 <p className="text-sm opacity-80">for Young Minds</p>
               </div>
             </div>
@@ -94,7 +94,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 opacity-80" />
-                <span className="text-sm opacity-80">hello@aiacacemy.edu</span>
+                <span className="text-sm opacity-80">hello@igniteaiacacemy.edu</span>
               </div>
             </div>
 
@@ -122,7 +122,7 @@ const Footer = () => {
         <div className="border-t border-background/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-sm opacity-80">
-              © 2024 AI Academy for Young Minds. All rights reserved.
+              © 2024 Ignite AI Academy for Young Minds. All rights reserved.
             </div>
             <div className="flex gap-6 text-sm opacity-80">
               <a href="#" className="hover:opacity-100 hover:text-primary transition-all">Privacy Policy</a>

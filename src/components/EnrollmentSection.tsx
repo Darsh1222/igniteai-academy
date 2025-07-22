@@ -186,7 +186,7 @@ const EnrollmentSection = () => {
                 </p>
                 <div className="space-y-2 text-sm">
                   <div>📞 (555) 123-AI-KIDS</div>
-                  <div>✉️ hello@aiacacemy.edu</div>
+                  <div>✉️ hello@igniteaiacacemy.edu</div>
                   <div>💬 Live chat available 9 AM - 6 PM</div>
                 </div>
               </CardContent>

@@ -28,8 +28,8 @@ const ContactSection = () => {
       icon: Mail,
       title: "Email Us",
       details: [
-        "hello@aiacacemy.edu",
-        "admissions@aiacacemy.edu",
+                        "hello@igniteaiacacemy.edu",
+                        "admissions@igniteaiacacemy.edu",
         "We reply within 24 hours"
       ]
     },

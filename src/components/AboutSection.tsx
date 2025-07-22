@@ -30,7 +30,7 @@ const AboutSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="inline-flex items-center px-4 py-2 bg-primary/10 border border-primary/20 rounded-full text-sm font-medium text-primary mb-4">
-            About AI Academy
+            About Ignite AI Academy
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Pioneering AI Education for the
@@ -72,7 +72,7 @@ const AboutSection = () => {
                 </p>
                 <p>
                   Founded by a team of educators, technologists, and child development experts, 
-                  AI Academy was born from the belief that AI literacy should start early. 
+                  Ignite AI Academy was born from the belief that AI literacy should start early. 
                   Just as we teach reading and math as fundamental skills, we believe AI understanding 
                   will be essential for tomorrow's citizens.
                 </p>
