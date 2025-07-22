@@ -49,12 +49,7 @@ const Footer = () => {
               Building tomorrow's innovators through fun, engaging, 
               and age-appropriate artificial intelligence learning.
             </p>
-            <div className="flex space-x-3">
-              <Facebook className="w-5 h-5 opacity-80 hover:opacity-100 cursor-pointer transition-opacity" />
-              <Twitter className="w-5 h-5 opacity-80 hover:opacity-100 cursor-pointer transition-opacity" />
-              <Instagram className="w-5 h-5 opacity-80 hover:opacity-100 cursor-pointer transition-opacity" />
-              <Linkedin className="w-5 h-5 opacity-80 hover:opacity-100 cursor-pointer transition-opacity" />
-            </div>
+            
           </div>
 
           {/* Quick Links */}
