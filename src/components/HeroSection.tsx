@@ -45,6 +45,8 @@ const HeroSection = () => {
                 </span>
                 <br />
                 <span className="text-foreground">Start Today</span>
+                <br />
+                <span className="text-sm md:text-base text-muted-foreground font-normal">Coming Soon</span>
               </h1>
               
               <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto lg:mx-0">
