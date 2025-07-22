@@ -1,24 +1,38 @@
 import { Brain, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
-
 const Footer = () => {
-  const quickLinks = [
-    { label: "About Us", href: "#about" },
-    { label: "Programs", href: "#programs" },
-    { label: "Why AI for Kids?", href: "#why-ai" },
-    { label: "Testimonials", href: "#testimonials" },
-    { label: "Contact", href: "#contact" },
-  ];
-
-  const programs = [
-    { label: "AI Explorers (Ages 6-7)", href: "#programs" },
-    { label: "Young AI Scientists (Ages 8-9)", href: "#programs" },
-    { label: "Future AI Innovators (Ages 10-11)", href: "#programs" },
-    { label: "Summer AI Camp", href: "#programs" },
-    { label: "After-School Club", href: "#programs" },
-  ];
-
-  return (
-    <footer className="bg-foreground text-background py-16">
+  const quickLinks = [{
+    label: "About Us",
+    href: "#about"
+  }, {
+    label: "Programs",
+    href: "#programs"
+  }, {
+    label: "Why AI for Kids?",
+    href: "#why-ai"
+  }, {
+    label: "Testimonials",
+    href: "#testimonials"
+  }, {
+    label: "Contact",
+    href: "#contact"
+  }];
+  const programs = [{
+    label: "AI Explorers (Ages 6-7)",
+    href: "#programs"
+  }, {
+    label: "Young AI Scientists (Ages 8-9)",
+    href: "#programs"
+  }, {
+    label: "Future AI Innovators (Ages 10-11)",
+    href: "#programs"
+  }, {
+    label: "Summer AI Camp",
+    href: "#programs"
+  }, {
+    label: "After-School Club",
+    href: "#programs"
+  }];
+  return <footer className="bg-foreground text-background py-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
@@ -65,9 +79,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-background/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="text-sm opacity-80">
-              © 2024 Ignite AI Academy for Young Minds. All rights reserved.
-            </div>
+            <div className="text-sm opacity-80">© 2025 Ignite AI Academy for Young Minds. All rights reserved.</div>
             <div className="flex gap-6 text-sm opacity-80">
               <a href="#" className="hover:opacity-100 hover:text-primary transition-all">Privacy Policy</a>
               <a href="#" className="hover:opacity-100 hover:text-primary transition-all">Terms of Service</a>
@@ -81,8 +93,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
