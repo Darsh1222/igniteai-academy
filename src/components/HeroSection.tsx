@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Sparkles, Zap, Brain } from "lucide-react";
+import { ArrowRight, Sparkles, Zap, Brain, Lightbulb } from "lucide-react";
 import heroImage from "@/assets/hero-ai-kids.jpg";
 const HeroSection = () => {
   return <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24">
@@ -12,7 +12,7 @@ const HeroSection = () => {
         animationDelay: '0.5s'
       }}>
         <div className="w-10 h-10 bg-ai-blue rounded-full flex items-center justify-center shadow-lg">
-          <Brain className="w-5 h-5 text-white" />
+          <Lightbulb className="w-5 h-5 text-white" />
         </div>
       </div>
       
