@@ -53,16 +53,10 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h4 className="font-semibold mb-4">Quick Links</h4>
-            <p className="text-sm opacity-80">Coming Soon</p>
-          </div>
+          
 
           {/* Programs */}
-          <div>
-            <h4 className="font-semibold mb-4">Our Programs</h4>
-            <p className="text-sm opacity-80">Coming Soon</p>
-          </div>
+          
 
           {/* Contact Info */}
           <div>
