@@ -38,7 +38,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              
+              <Brain className="h-8 w-8 text-primary" />
               <div>
                 <h3 className="text-xl font-bold">Ignite AI Academy</h3>
                 <p className="text-sm opacity-80">for Young Minds</p>
