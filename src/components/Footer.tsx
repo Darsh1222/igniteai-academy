@@ -68,7 +68,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-background/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="text-sm opacity-80">© 2025 Ignite AI Academy for Young Minds. All rights reserved.</div>
+            <div className="text-sm opacity-80">© 2025 Ignite AI Academy. All rights reserved.</div>
             <div className="flex gap-6 text-sm opacity-80">
               <a href="/privacy-policy" className="hover:opacity-100 hover:text-primary transition-all">Privacy Policy</a>
               <a href="/terms-of-service" className="hover:opacity-100 hover:text-primary transition-all">Terms of Service</a>
