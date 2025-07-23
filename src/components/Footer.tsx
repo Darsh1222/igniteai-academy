@@ -70,8 +70,8 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-sm opacity-80">© 2025 Ignite AI Academy for Young Minds. All rights reserved.</div>
             <div className="flex gap-6 text-sm opacity-80">
-              <a href="#" className="hover:opacity-100 hover:text-primary transition-all">Privacy Policy</a>
-              <a href="#" className="hover:opacity-100 hover:text-primary transition-all">Terms of Service</a>
+              <a href="/privacy-policy" className="hover:opacity-100 hover:text-primary transition-all">Privacy Policy</a>
+              <a href="/terms-of-service" className="hover:opacity-100 hover:text-primary transition-all">Terms of Service</a>
               <a href="#" className="hover:opacity-100 hover:text-primary transition-all">Accessibility</a>
             </div>
           </div>
